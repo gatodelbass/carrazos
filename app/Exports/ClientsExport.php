@@ -18,6 +18,6 @@ class ClientsExport implements FromCollection, WithHeadings
 
     public function headings(): array
     {
-        return ["ID", "NOMBRE", "APELLIDO", "CEDULA", "CELULAR", "", "COD CIUDAD", "", "FECHA CREADO"];
+        return ["ID", "NOMBRE", "APELLIDO", "CEDULA", "CELULAR", "EMAIL", "COD CIUDAD", "FECHA ELIMINADO", "FECHA CREADO"];
     }
 }
